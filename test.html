@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Order Delivery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="test">
+    <!--NAV BAR-->
+    <nav>
+      <ul id="mainMenu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a class="activeMenuItem" href="test.html">ORDER DELIVERY</a></li>
+        <li><a href="learn.html">MISSION</a></li>
+      </ul>
+    </nav>
+  </body>
+
+  <img
+    src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/FarmFresh%20(500%20%C3%97%20180%20px).png?v=1663986405505"
+    class="center"
+    style="width: 15%; height: 15%"
+  />
+  <p style="font-family: Gill Sans, sans-serif; font-size: 300%; color: black">
+    Enjoy locally sourced goods, anywhere, anytime.
+    <br />
+    Start
+    <span style="color: #288931"><em>sustainably</em></span>
+    shopping:
+  </p>
+
+  <!-- Search bar -->
+  <div class="wrap">
+    <form id="form" role="search">
+      <form action="getAddress" method="get">
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="ADDRESS"
+        /><br />
+
+        <br />
+        <input class="center" type="button" value="Submit" onclick="pr()" />
+      </form>
+      <h2>
+        <span style="color: #288931"><em>Vendors Near</em></span>
+        <span id="result"></span>
+      </h2>
+      <script>
+        function pr() {
+          document.getElementById("result").innerHTML =
+            document.getElementById("address").value;
+        }
+      </script>
+    </form>
+  </div>
+  <br /><br />
+  <hr width="100%" size="3" align="center" color="#288931" />
+  <br />
+
+  <!-- CURRENT VENDORS -->
+  <img
+    src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/currven.png?v=1664033636937"
+    class="center"
+    style="width: 35%; height: 35%"
+  />
+
+  <div class="row">
+    <div class="column">
+      <a href="currVendor1.html">
+        <img
+          src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/Curr1.png?v=1664001242410"
+          class="center"
+          style="width: 100%"
+        />
+      </a>
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/Curr2.png?v=1664003630103"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/Curr3.png?v=1664003745577"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/Curr4.png?v=1664004814877"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/curr5.png?v=1664004962065"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+  </div>
+  <br /><br />
+
+  <hr width="100%" size="3" align="center" color="#288931" />
+  <br />
+
+  <!-- UPCOMING VENDORS -->
+  <img
+    src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/upcomingvendors.png?v=1663998686108"
+    class="center"
+    style="width: 35%; height: 35%"
+  />
+
+  <div class="row">
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/curr6.png?v=1664005027516"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/curr7.png?v=1664005029563"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/curr8.png?v=1664005937441"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/curr9.png?v=1664005937441"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+    <div class="column">
+      <img
+        src="https://cdn.glitch.global/70a99875-026a-4f1d-9174-36f2ae8358c8/curr10.png?v=1664005937529"
+        class="center"
+        style="width: 100%"
+      />
+    </div>
+  </div>
+</html>

@@ -1,0 +1,178 @@
+body {
+  font-family: Gill Sans, sans-serif;
+  background-color: #FFFFFF;
+}
+
+
+
+.welcome 
+{
+  background: url("https://images.pexels.com/photos/7456521/pexels-photo-7456521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  border-style: solid;
+  border-radius: 5%;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+/*   border-style: solid; */
+  margin: 2%;
+}
+
+footer {
+  font-family: "Gill Sans", sans-serif;
+  font-size: small;
+  color: white;
+}
+
+
+/*********************
+* Tab Buttons
+********************/
+
+/* Style tab */
+.tab {
+  overflow: hidden;
+  border: 2px solid lightgray;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: gray;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: darkgray;
+}
+
+/* Style the tab content */
+.tabContent {
+  display: none;
+  padding: 6px 12px;
+  border: 2px solid lightgray;
+  border-top: none;
+}
+
+/**************************
+** Navigation Bar
+**************************/
+
+#mainMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #00000;*/
+  font-family: Gill Sans, sans-serif;
+  font-size: 130%;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#mainMenu li {
+  float: left;
+}
+
+#mainMenu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#mainMenu li a:hover {
+  background-color: #111111;
+}
+
+.activeMenuItem {
+  background-color: #808080;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#center
+{
+  text-align: center;
+}
+
+/* Search bar */
+form {
+  background-color: #288931;
+  width: 250px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input {
+  all: unset;
+  font: 18px system-ui;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+  font-family: Gill Sans, sans-serif;
+}
+::placeholder {
+  color: #ffffff;
+  opacity: 0.7; 
+}
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: #ffffff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.wrap {
+  width: 30%;
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translate(138%, -0%);
+}
+
+.row {
+  display: flex;
+}
+.column {
+  flex: 20%;
+  padding: 5px;
+}
